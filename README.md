@@ -1,0 +1,1 @@
+For this project I will create the frontpage for a zoo using HTML, CSS and jQuery. It will be an arctic style webpage for The White Wolves Zoo.
