@@ -1,0 +1,19 @@
+body{
+    width: 1024px;
+    background-image: url("backgroundtile.jpg");
+    text-align: center;
+    margin:auto;
+}
+.navigationbar li {
+    display: inline;
+}
+.pagebanner {
+    width: 800px;
+    height:600px;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url("bannerbackground.jpg");
+    background-size:cover;
+    margin: auto;
+}
