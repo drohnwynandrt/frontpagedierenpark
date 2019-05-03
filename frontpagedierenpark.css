@@ -1,14 +1,39 @@
+
 body{
     width: 1024px;
     background-image: url("backgroundtile.jpg");
     text-align: center;
     margin:auto;
 }
+
+ul.navigationbar {
+    list-style:none;
+    padding:0;
+    text-align:center;
+}
 .navigationbar li {
-    display: inline;
+    display: inline-block;
+    width: 100px;
+    text-align:left;
+
+    padding: 10px;
+    margin: 20px;
+    text-align:center;
+    font-weight: bold;
+}
+
+.navhome {
+    background-color: azure;
+}
+
+.navpictures {
+    background-color: darkgrey;
+}
+.navhome_hover {
+    background-color: rgb(170, 192, 211);
 }
 .pagebanner {
-    width: 800px;
+    width: 1024px;
     height:600px;
     text-align: center;
     display:grid;
@@ -17,3 +42,4 @@ body{
     background-size:cover;
     margin: auto;
 }
+
