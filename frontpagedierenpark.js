@@ -1,7 +1,7 @@
-
-
-   $('.navhome').hover(function(){
-        $(this).toggleClass('navhome_hover');})
+$('.navhome').hover(function(){
+    $(this).toggleClass('navhome_hover');})
+$('.navpictures').hover(function(){
+    $(this).toggleClass('navpictures_hover');})
 
 
 /*   
